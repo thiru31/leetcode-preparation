@@ -30,6 +30,9 @@ public:
                 st.pop();
             }
         }
+        if(!st.empty()){
+            flag=0;
+        }
         return flag;
     }
 };
